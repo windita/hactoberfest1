@@ -1,0 +1,210 @@
+/* CSS HEADER*/
+.headerlog{
+    /* background-color: rgb(127, 201, 219);   */
+    width: 100%;
+    height: 70px; 
+    align-items: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    padding: 20px 0px;
+    
+}
+
+.header a{
+    float: inherit;
+    color: rgb(15, 10, 10);
+    text-align: center;
+    text-decoration-style: wavy;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+	background-color: rgb(255, 255, 255);
+	margin: 0px;
+}
+.wrap{
+  width: 100%;
+  margin: 25px auto;
+  
+  margin-bottom: -20px;
+  background: linear-gradient(to bottom, #33ccff 0%, #cc99ff 100%);
+  
+}
+nav.menu ul{
+  overflow: hidden;
+  /* color: #fff; */
+  list-style: none;
+  float: right;
+  padding-right: 20px;
+  width: 800px;
+  margin-right: 0;
+  /* background: rgb(127, 201, 219); */
+  
+  background: linear-gradient(to bottom, #33ccff 0%, #cc99ff 100%);
+}
+nav.menu ul li{
+  /* margin: 0px; */
+  float: right;
+  
+  margin-bottom: -20px;
+  background: linear-gradient(to bottom, #33ccff 0%, #cc99ff 100%);
+}
+nav.menu ul a{
+  padding: 25px;
+  display: block; 
+    color: #fff; 
+  transition: all 0.5 ease;
+  text-decoration: none;
+  text-transform: none;
+  
+  background: linear-gradient(to bottom, #33ccff 0%, #cc99ff 100%);
+}
+
+/* CSS BAGIAN FORM */
+.kotak{
+    width: 350px;
+    background: #dddddd;
+    padding: 20px 20px;
+    margin: 80px auto;
+    /* border: groove 0,5em rgb(0, 110, 255); */
+    border-radius: 1em;
+}
+.tulisan{
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px auto;
+}
+.form_sign[type=text], input[type=password]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    display: inline-block;
+    background: #f1f1f1;
+    
+    /* border: groove 0,5em rgb(0, 110, 255); */
+    border-radius: 1em;
+}
+.form_sign[type=text]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.label{
+  font-family: sans-serif;
+  margin: 20px auto;
+}
+
+/* CSS LOGIN */
+.tbl_login{
+    background: rgb(82, 188, 202);
+    color: #fff;
+    font-size: 12pt;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+/* CSS REGISTER */
+  .registerbtn{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(127, 201, 219);
+    
+     border: groove 0,5em rgb(0, 110, 255); 
+    border-radius: 1em;
+  }
+  
+/* CSS DASHBOARD DAN ISI */
+
+.judul{
+    padding: 20px;
+    text-align: center;
+    /* color: azure; */
+	  /* background-color: rgb(158, 199, 211); */
+    margin-bottom: -20px;
+      background: linear-gradient(to bottom, #33ccff 0%, #cc99ff 100%);
+  
+    
+}
+.test{
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(187, 223, 173) */
+    background: linear-gradient(to top, #33ccff 0%, #cc99ff 100%);
+
+}
+.test a{
+  float: right;
+  margin-right: 20px;
+}
+.test h3{
+  margin-left: 20px;
+  
+  background: linear-gradient(to top, #33ccff 0%, #cc99ff 100%);
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+.font{
+    font-size: 20px
+}
+.SubJdl{
+    text-align: center;
+	margin-top: 50px;
+	color: rgb(45, 111, 155);
+}
+.container{
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0.089);
+	margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+	padding: 30px;
+	padding-top: 90px;
+	padding-bottom: 50px;
+	width: 18rem;
+	height: 18rem;
+  background-color: rgb(252, 255, 251);
+  
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+#look_btn{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	background-color: #2F74D0;
+	color: white;
+}
+.container1{
+    float: center;
+	border: 1px solid rgba(0, 0, 0, 0.089);
+	padding: 50px;
+  padding-top: 90px;
+  padding-bottom: 150px;
+  width: 18rem;
+	height: 18rem;
+	background-color: rgb(252, 255, 251);
+}
+#back_btn{
+	margin-top: 12px;
+	margin-bottom: 18px;
+	background-color: rgb(127, 201, 219);
+	color: rgb(255, 255, 255);
+	width: 290px;
+	height: 35px;
+}
+.images {
+  width: 65%;
+}
